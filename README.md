@@ -1,7 +1,7 @@
 AuthApp
 ===========
 
-Authentication middleware with NodeJS using PassportJS
+Authentication middleware with NodeJS and PassportJS
 
 
 Usage
