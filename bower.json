@@ -1,0 +1,28 @@
+{
+  "name": "AuthApp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pfryga/AuthApp",
+  "authors": [
+    "Piotr Fryga <piotr.fryga@allegro.pl>"
+  ],
+  "description": "AuthApp",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.2.16",
+    "bootstrap": "~3.1.1",
+    "angular-resource": "1.2.16",
+    "angular-cookies": "1.2.16",
+    "angular-sanitize": "1.2.16",
+    "angular-animate": "1.2.16",
+    "angular-touch": "1.2.16",
+    "angular-route": "1.2.16"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/js/node_modules/bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,10 +1,28 @@
 <html>
   <head>
     <title>Node.js OAuth</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="stylesheets/style.css">
   </head>
-  <body>
-    <a href="/auth/facebook">Sign in with Facebook</a>
-    <br></br>
-    <a href="/auth/github">Sign in with Github</a>
+  <body ng-app="authApp">
+    <div ng-controller="MainCtrl">
+    	<a href="/auth/facebook">Sign in with Facebook</a>
+    	<br></br>
+    	<a href="/auth/github">Sign in with Github</a>
+    	
+    	<span>{{ response }}</span>
+    	
+    	<script src="bower_components/angular/angular.js"></script>
+    	<script src="bower_components/angular-resource/angular-resource.js"></script>
+    	<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    	<script src="bower_components/angular-animate/angular-animate.js"></script>
+    	<script src="bower_components/angular-touch/angular-touch.js"></script>
+    	<script src="bower_components/angular-route/angular-route.js"></script>
+    	
+    	<script src="javascripts/app.js"></script>
+    	<script src="javascripts/mainCtrl.js"></script>
+    	<script src="javascripts/connectService.js"></script>
+    </div>
   </body>
 </html>
