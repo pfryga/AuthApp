@@ -15,4 +15,4 @@ Node package manager resources
 
 ### Development
 
-	node app.js
+	node bin/www
